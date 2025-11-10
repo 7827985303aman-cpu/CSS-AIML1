@@ -54,5 +54,28 @@ p.box2{
     padding: 40px;
     text-align: center;
 }
-
+div{
+    display: block;
+    text-align: center;
+    border: 5px solid black;
+}
+div.cards{
+    border: 2px solid black;
+    width: 700px;
+}
+div.box1{
+    display: inline-block;
+    background-color: yellow;
+    width: 70px;
+}
+div.b2{
+    display: inline-block;
+    background-color: violet;
+    width: 150px;
+}
+div.box3{
+    display: inline-block;
+    background-color: cyan;
+    width: 100px;
+}
 
