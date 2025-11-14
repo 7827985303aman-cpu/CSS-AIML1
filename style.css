@@ -15,7 +15,7 @@
     border: 1px solid black;
     margin-left: 10px;  
 }
-div.container{
+div.contain{
     display: inline-block;
     height: 120px;
     width: 100px;
@@ -24,7 +24,7 @@ div.container{
     border: 1px solid black;
     margin: 20px;
 }
-div.container2{
+div.contain2{
     display: inline-block;
     height: 120px;
     width: 100px;
@@ -58,6 +58,7 @@ div{
     display: block;
     text-align: center;
     border: 5px solid black;
+    width: 400px;
 }
 div.cards{
     border: 2px solid black;
@@ -66,16 +67,27 @@ div.cards{
 div.box1{
     display: inline-block;
     background-color: yellow;
-    width: 70px;
+    /* width: 150px; */
 }
 div.b2{
     display: inline-block;
     background-color: violet;
-    width: 150px;
+    /* width: 150px; */
 }
 div.box3{
     display: inline-block;
     background-color: cyan;
-    width: 100px;
+    /* width: 150px; */
+}
+.box3, .box1, .b2{
+    width: 150px;
+}
+div.float{
+    background-color: cadetblue;
+    border: 2px dotted black;
+    height: 250px;
+}
+img{
+    float: left;
 }
 
